@@ -12,8 +12,8 @@ import cucumber.api.junit.Cucumber;
 
 //glue="sample")
 
-tags= {"@login or @regression"},
-plugin="html:target\\htmlreport")
+//tags= {"@login or @regression"},
+plugin="json:target\\htmlreport.json")
 
 //plugin="json:target\\Jsonreport.json")
 
