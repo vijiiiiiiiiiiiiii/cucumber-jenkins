@@ -1,9 +1,9 @@
 package sample;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.AssertJUnit;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -38,7 +38,7 @@ public class scnrio3 {
 
 	@Then("verify it displays Home page")
 	public void verify_it_displays_Home_page() {
-		AssertJUnit.assertTrue(driver.getTitle().contains("Home"));
+		Assert.assertTrue(driver.getTitle().contains("Home"));
 		System.out.println("Browser closed");
 		driver.close();
 	}
