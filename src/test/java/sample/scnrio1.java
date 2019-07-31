@@ -1,5 +1,6 @@
 package sample;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -42,7 +43,7 @@ public class scnrio1 {
 
 	public void verify_login_result_as_success() {
 
-	AssertJUnit.assertTrue(driver.getTitle().contains("Flight"));
+Assert.assertTrue(driver.getTitle().contains("Flight"));
 
 
 
