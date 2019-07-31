@@ -1,0 +1,101 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test Add function",
+        "description": "",
+        "id": "test-caluclator-functionality;test-add-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1277400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 11
+                }
+              ],
+              "location": "scnrio2.user_enter(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user press plus",
+            "match": {
+              "location": "scnrio2.user_press_plus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters second values as 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 29
+                }
+              ],
+              "location": "scnrio2.user_enters_second_values_as(Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user press equal",
+            "match": {
+              "location": "scnrio2.the_user_press_equal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate the output as 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 23
+                }
+              ],
+              "location": "scnrio2.validate_the_output_as(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Caluclator functionality",
+    "description": "",
+    "id": "test-caluclator-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample/scnrio2.feature",
+    "tags": []
+  }
+]

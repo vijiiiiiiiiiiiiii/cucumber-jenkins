@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.004438">
+<testcase classname="Test Caluclator functionality" name="Test Add function" time="0.004438">
+<system-out><![CDATA[When user enter 1...........................................................passed
+And user press plus.........................................................passed
+And user enters second values as 2..........................................passed
+Then the user press equal...................................................passed
+Then Validate the output as 3...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
